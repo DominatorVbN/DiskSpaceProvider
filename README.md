@@ -2,6 +2,12 @@
 
 A mini project exploring available API's to check Disk Storage Capacity
 
+## Demo App
+
+|Disk Size|Total and Purgeable Size|iPhone Storage|
+|---|---|---|
+|![Importance Usage, Opportunistic Usage, Older Api Usage](storage.PNG "Importance Usage, Opportunistic Usage, Older Api Usage")|![Total size, Purgeable size](purge.PNG "Total size, Purgeable size")|![iPhoneStorage](iphonestorage.png "iPhoneStorage")|
+
 ## Accessing total disk size of the device
 
 ```swift
@@ -60,9 +66,3 @@ let usedSizeInBytes = resourceValues.volumeAvailableCapacityForOpportunisticUsag
 ```
 
 For getting the free space we create a URL to the home directory and fetch the resourceValues for the URL, using the required URLResourceKey, then we access corresponding size value, `URLResourceValues` contains `volumeAvailableCapacityForImportantUsage` and `volumeAvailableCapacityForOpportunisticUsage` property whose value gets fetched according to passed URLResourceKey, otherwise returns nil, both of the properties are Int64 and represents the size in bytes.
-
-# Demo App
-
-|Disk Size|Total and Purgeable Size|iPhone Storage|
-|---|---|---|
-|![Importance Usage, Opportunistic Usage, Older Api Usage](storage.PNG "Importance Usage, Opportunistic Usage, Older Api Usage")|![Total size, Purgeable size](purge.PNG "Total size, Purgeable size")|![iPhoneStorage](iphonestorage.png "iPhoneStorage")|
