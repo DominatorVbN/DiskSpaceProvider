@@ -59,7 +59,7 @@ let resourceValues = try homeDirectoryUrl.resourceValues(forKeys: [resourceKey])
 let usedSizeInBytes = resourceValues.volumeAvailableCapacityForOpportunisticUsage
 ```
 
-For getting the free space we create a URL to the home directory and fetch the resourceValues for the URL, using the required URLResourceKey, then we access corresponding size value, `URLResourceValues` contains `volumeAvailableCapacityForImportantUsage` and `volumeAvailableCapacityForOpportunisticUsageKey` property whose value gets fetched according to passed URLResourceKey, otherwise returns nil, both of the properties are Int64 and represents the size in bytes.
+For getting the free space we create a URL to the home directory and fetch the resourceValues for the URL, using the required URLResourceKey, then we access corresponding size value, `URLResourceValues` contains `volumeAvailableCapacityForImportantUsage` and `volumeAvailableCapacityForOpportunisticUsage` property whose value gets fetched according to passed URLResourceKey, otherwise returns nil, both of the properties are Int64 and represents the size in bytes.
 
 # Demo App
 
