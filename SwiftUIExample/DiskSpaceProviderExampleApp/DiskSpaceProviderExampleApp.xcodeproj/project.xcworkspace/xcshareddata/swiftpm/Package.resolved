@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DiskSpaceProvider",
+        "repositoryURL": "https://github.com/DominatorVbN/DiskSpaceProvider",
+        "state": {
+          "branch": "main",
+          "revision": "782bd4745e0814817017bf9b0209345cbce6f064",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

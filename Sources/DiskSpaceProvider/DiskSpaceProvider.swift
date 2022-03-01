@@ -20,6 +20,8 @@ public class DiskSpaceProvider {
     private let homeDirectoryPath = NSHomeDirectory() as String
     private let homeDirectoryUrl = URL(fileURLWithPath: NSHomeDirectory() as String)
     
+    public init() {}
+    
     /// Get total disk space in bytes
     /// - Returns: returns total disk space in bytes
     public func getTotalDiskSpace() throws -> Int64 {
