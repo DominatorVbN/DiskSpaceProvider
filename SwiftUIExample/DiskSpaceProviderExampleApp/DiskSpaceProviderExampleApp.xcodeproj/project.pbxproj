@@ -15,7 +15,7 @@
 		1986ED7A27CE000900096E66 /* StatSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED7627CE000900096E66 /* StatSectionView.swift */; };
 		1986ED7B27CE000900096E66 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED7727CE000900096E66 /* BarView.swift */; };
 		1986ED7D27CE001A00096E66 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED7C27CE001900096E66 /* ContentViewModel.swift */; };
-		1986ED8027CE010A00096E66 /* DiskSpaceProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 1986ED7F27CE010A00096E66 /* DiskSpaceProvider */; };
+		1986ED8627CE022E00096E66 /* DiskSpaceProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 1986ED8527CE022E00096E66 /* DiskSpaceProvider */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1986ED8027CE010A00096E66 /* DiskSpaceProvider in Frameworks */,
+				1986ED8627CE022E00096E66 /* DiskSpaceProvider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +116,7 @@
 			);
 			name = DiskSpaceProviderExampleApp;
 			packageProductDependencies = (
-				1986ED7F27CE010A00096E66 /* DiskSpaceProvider */,
+				1986ED8527CE022E00096E66 /* DiskSpaceProvider */,
 			);
 			productName = DiskSpaceProviderExampleApp;
 			productReference = 1986ED4C27CDFCF400096E66 /* DiskSpaceProviderExampleApp.app */;
@@ -147,7 +147,7 @@
 			);
 			mainGroup = 1986ED4327CDFCF400096E66;
 			packageReferences = (
-				1986ED7E27CE010A00096E66 /* XCRemoteSwiftPackageReference "DiskSpaceProvider" */,
+				1986ED8427CE022E00096E66 /* XCRemoteSwiftPackageReference "DiskSpaceProvider" */,
 			);
 			productRefGroup = 1986ED4D27CDFCF400096E66 /* Products */;
 			projectDirPath = "";
@@ -385,20 +385,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1986ED7E27CE010A00096E66 /* XCRemoteSwiftPackageReference "DiskSpaceProvider" */ = {
+		1986ED8427CE022E00096E66 /* XCRemoteSwiftPackageReference "DiskSpaceProvider" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/DominatorVbN/DiskSpaceProvider";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1986ED7F27CE010A00096E66 /* DiskSpaceProvider */ = {
+		1986ED8527CE022E00096E66 /* DiskSpaceProvider */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1986ED7E27CE010A00096E66 /* XCRemoteSwiftPackageReference "DiskSpaceProvider" */;
+			package = 1986ED8427CE022E00096E66 /* XCRemoteSwiftPackageReference "DiskSpaceProvider" */;
 			productName = DiskSpaceProvider;
 		};
 /* End XCSwiftPackageProductDependency section */

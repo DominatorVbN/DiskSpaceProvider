@@ -5,9 +5,9 @@
         "package": "DiskSpaceProvider",
         "repositoryURL": "https://github.com/DominatorVbN/DiskSpaceProvider",
         "state": {
-          "branch": "main",
-          "revision": "782bd4745e0814817017bf9b0209345cbce6f064",
-          "version": null
+          "branch": null,
+          "revision": "acef4977953995243bf97ef747f56d3ff17b61f5",
+          "version": "0.0.1"
         }
       }
     ]
