@@ -390,7 +390,7 @@
 			repositoryURL = "https://github.com/DominatorVbN/DiskSpaceProvider";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
+				minimumVersion = 0.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
