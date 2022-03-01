@@ -1,12 +1,83 @@
 # DiskSpaceProvider
 
-A mini project exploring available API's to check Disk Storage Capacity
+A micro librrary provinding simple API's to check Disk Storage Capacity
+
+## Installation
+
+DiskSpaceProvider api is available through Swift Package Manager
+
+add this url to File -> Swift Packages -> Add new Dependecy
+
+```
+https://github.com/DominatorVbN/DiskSpaceProvider.git
+```
+
+add the following as a dependency to your Package.swift:
+
+```swift
+.package(url: "https://github.com/DominatorVbN/DiskSpaceProvider.git", .upToNextMajor(from: "0.0.1"))
+```
+
+## Usage
+
+Create a instance of `DiskSpaceProvider`
+
+```swift
+import DiskSpaceProvider
+
+let diskSpaceProvider = DiskSpaceProvider()
+```
+
+Getting the total disk storage:
+
+```swift
+let totalDiskSpaceInBytes: Int64 = diskSpaceProvider.getTotalDiskSpace()
+```
+
+Gettting available disk size using iOS 11+ API
+
+* Importance Usage
+
+``` swift
+do {
+    let importantUsageFreeSizeInBytes: Int64 = try diskSpaceProvider.getFreeDiskSpace(forUsageType: .importantUsage)
+} catch {
+    debugPrint(error)
+}
+```
+
+* Opportunistic Usage
+
+``` swift
+do {
+    let opportunisticUsageFreeSizeInBytes: Int64 = try diskSpaceProvider.getFreeDiskSpace(forUsageType: .opportunisticUsage)
+} catch {
+    debugPrint(error)
+}
+```
+
+Gettting available disk size using prior iOS 11 API
+
+``` swift
+do {
+    let freeSizeInBytes: Int64 = try diskSpaceProvider.getFreeDiskSpace()
+} catch {
+    debugPrint(error)
+}
+```
+
+> **Warning:**
+> Using FileManager API result inaccurate size, this should only be used in case URL API is not available that is below iOS 11
 
 ## Demo App
+
+You can run the demo app by opening XCProj file located at `DiskSpaceProvider/SwiftUIExample/DiskSpaceProviderExampleApp/DiskSpaceProviderExampleApp.xcodeproj`
 
 |Disk Size|Total and Purgeable Size|iPhone Storage|
 |---|---|---|
 |![Importance Usage, Opportunistic Usage, Older Api Usage](storage.PNG "Importance Usage, Opportunistic Usage, Older Api Usage")|![Total size, Purgeable size](purge.PNG "Total size, Purgeable size")|![iPhoneStorage](iphonestorage.png "iPhoneStorage")|
+
+# Learnings while creating this library
 
 ## Accessing total disk size of the device
 
