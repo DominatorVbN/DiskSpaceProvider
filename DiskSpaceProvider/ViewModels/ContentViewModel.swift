@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreGraphics
+import DiskSpaceProvider
 
 @dynamicMemberLookup
 class ContentViewModel {

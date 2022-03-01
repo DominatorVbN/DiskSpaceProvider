@@ -11,6 +11,7 @@ import Foundation
 public class DiskSpaceProvider {
     
     /// Usage of disk storage to calculate space against
+    @available(iOS 11.0, macOS 10.13, *)
     public enum UsageType {
         case importantUsage
         case opportunisticUsage
@@ -30,6 +31,7 @@ public class DiskSpaceProvider {
     /// Fetch the available according to provided usage tyep
     /// - Parameter usageType: usage type of disk space
     /// - Returns: returns size
+    @available(iOS 11.0, macOS 10.13, *)
     public func getFreeDiskSpace(forUsageType usageType: UsageType) throws -> Int64 {
         let size: Int64?
         switch usageType {
@@ -45,7 +47,7 @@ public class DiskSpaceProvider {
         return size ?? 0
     }
     
-    /// Get free disk space irrelevent to usage type iOS 13 prior API
+    /// Get free disk space irrelevent to usage type iOS 11 prior API
     /// - Returns: returns size
     public func getFreeDiskSpace() throws -> Int64 {
         let systemAttributes = try FileManager.default.attributesOfFileSystem(forPath: homeDirectoryPath)

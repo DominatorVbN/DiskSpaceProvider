@@ -7,32 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		192DA5D927B2D648000761E1 /* DiskSpaceProviderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5D827B2D648000761E1 /* DiskSpaceProviderApp.swift */; };
-		192DA5DB27B2D648000761E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5DA27B2D648000761E1 /* ContentView.swift */; };
-		192DA5DD27B2D64A000761E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192DA5DC27B2D64A000761E1 /* Assets.xcassets */; };
-		192DA5E027B2D64A000761E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192DA5DF27B2D64A000761E1 /* Preview Assets.xcassets */; };
-		192DA5E727B2D67C000761E1 /* DiskSpaceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5E627B2D67C000761E1 /* DiskSpaceProvider.swift */; };
-		192DA5EA27B2D69B000761E1 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5E927B2D69B000761E1 /* BarView.swift */; };
-		192DA5EC27B2D6B8000761E1 /* StatRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5EB27B2D6B8000761E1 /* StatRowView.swift */; };
-		192DA5EF27B2D70D000761E1 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5EE27B2D70D000761E1 /* ContentViewModel.swift */; };
-		192DA5F127B2D910000761E1 /* StatSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192DA5F027B2D910000761E1 /* StatSectionView.swift */; };
+		1986ED5027CDFCF400096E66 /* DiskSpaceProviderExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED4F27CDFCF400096E66 /* DiskSpaceProviderExampleAppApp.swift */; };
+		1986ED5427CDFCF500096E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1986ED5327CDFCF500096E66 /* Assets.xcassets */; };
+		1986ED5727CDFCF500096E66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1986ED5627CDFCF500096E66 /* Preview Assets.xcassets */; };
+		1986ED7827CE000900096E66 /* StatRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED7427CE000900096E66 /* StatRowView.swift */; };
+		1986ED7927CE000900096E66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED7527CE000900096E66 /* ContentView.swift */; };
+		1986ED7A27CE000900096E66 /* StatSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED7627CE000900096E66 /* StatSectionView.swift */; };
+		1986ED7B27CE000900096E66 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED7727CE000900096E66 /* BarView.swift */; };
+		1986ED7D27CE001A00096E66 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986ED7C27CE001900096E66 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		192DA5D527B2D648000761E1 /* DiskSpaceProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiskSpaceProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		192DA5D827B2D648000761E1 /* DiskSpaceProviderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskSpaceProviderApp.swift; sourceTree = "<group>"; };
-		192DA5DA27B2D648000761E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		192DA5DC27B2D64A000761E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		192DA5DF27B2D64A000761E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		192DA5E627B2D67C000761E1 /* DiskSpaceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskSpaceProvider.swift; sourceTree = "<group>"; };
-		192DA5E927B2D69B000761E1 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
-		192DA5EB27B2D6B8000761E1 /* StatRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatRowView.swift; sourceTree = "<group>"; };
-		192DA5EE27B2D70D000761E1 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		192DA5F027B2D910000761E1 /* StatSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatSectionView.swift; sourceTree = "<group>"; };
+		1986ED4C27CDFCF400096E66 /* DiskSpaceProviderExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiskSpaceProviderExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1986ED4F27CDFCF400096E66 /* DiskSpaceProviderExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskSpaceProviderExampleAppApp.swift; sourceTree = "<group>"; };
+		1986ED5327CDFCF500096E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1986ED5627CDFCF500096E66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1986ED7427CE000900096E66 /* StatRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatRowView.swift; sourceTree = "<group>"; };
+		1986ED7527CE000900096E66 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1986ED7627CE000900096E66 /* StatSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatSectionView.swift; sourceTree = "<group>"; };
+		1986ED7727CE000900096E66 /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		1986ED7C27CE001900096E66 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		192DA5D227B2D648000761E1 /* Frameworks */ = {
+		1986ED4927CDFCF400096E66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,98 +40,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		192DA5CC27B2D648000761E1 = {
+		1986ED4327CDFCF400096E66 = {
 			isa = PBXGroup;
 			children = (
-				192DA5D727B2D648000761E1 /* DiskSpaceProvider */,
-				192DA5D627B2D648000761E1 /* Products */,
+				1986ED4E27CDFCF400096E66 /* DiskSpaceProviderExampleApp */,
+				1986ED4D27CDFCF400096E66 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		192DA5D627B2D648000761E1 /* Products */ = {
+		1986ED4D27CDFCF400096E66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				192DA5D527B2D648000761E1 /* DiskSpaceProvider.app */,
+				1986ED4C27CDFCF400096E66 /* DiskSpaceProviderExampleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		192DA5D727B2D648000761E1 /* DiskSpaceProvider */ = {
+		1986ED4E27CDFCF400096E66 /* DiskSpaceProviderExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				192DA5ED27B2D6EB000761E1 /* ViewModels */,
-				192DA5E827B2D68D000761E1 /* Views */,
-				192DA5E627B2D67C000761E1 /* DiskSpaceProvider.swift */,
-				192DA5D827B2D648000761E1 /* DiskSpaceProviderApp.swift */,
-				192DA5DC27B2D64A000761E1 /* Assets.xcassets */,
-				192DA5DE27B2D64A000761E1 /* Preview Content */,
+				1986ED5D27CDFD1700096E66 /* ViewModels */,
+				1986ED5F27CDFD1700096E66 /* Views */,
+				1986ED4F27CDFCF400096E66 /* DiskSpaceProviderExampleAppApp.swift */,
+				1986ED5327CDFCF500096E66 /* Assets.xcassets */,
+				1986ED5527CDFCF500096E66 /* Preview Content */,
 			);
-			path = DiskSpaceProvider;
+			path = DiskSpaceProviderExampleApp;
 			sourceTree = "<group>";
 		};
-		192DA5DE27B2D64A000761E1 /* Preview Content */ = {
+		1986ED5527CDFCF500096E66 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				192DA5DF27B2D64A000761E1 /* Preview Assets.xcassets */,
+				1986ED5627CDFCF500096E66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		192DA5E827B2D68D000761E1 /* Views */ = {
+		1986ED5D27CDFD1700096E66 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				192DA5DA27B2D648000761E1 /* ContentView.swift */,
-				192DA5E927B2D69B000761E1 /* BarView.swift */,
-				192DA5EB27B2D6B8000761E1 /* StatRowView.swift */,
-				192DA5F027B2D910000761E1 /* StatSectionView.swift */,
+				1986ED7C27CE001900096E66 /* ContentViewModel.swift */,
 			);
-			path = Views;
+			name = ViewModels;
+			path = ../../../DiskSpaceProvider/ViewModels;
 			sourceTree = "<group>";
 		};
-		192DA5ED27B2D6EB000761E1 /* ViewModels */ = {
+		1986ED5F27CDFD1700096E66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				192DA5EE27B2D70D000761E1 /* ContentViewModel.swift */,
+				1986ED7727CE000900096E66 /* BarView.swift */,
+				1986ED7527CE000900096E66 /* ContentView.swift */,
+				1986ED7427CE000900096E66 /* StatRowView.swift */,
+				1986ED7627CE000900096E66 /* StatSectionView.swift */,
 			);
-			path = ViewModels;
+			name = Views;
+			path = ../../../DiskSpaceProvider/Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		192DA5D427B2D648000761E1 /* DiskSpaceProvider */ = {
+		1986ED4B27CDFCF400096E66 /* DiskSpaceProviderExampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 192DA5E327B2D64A000761E1 /* Build configuration list for PBXNativeTarget "DiskSpaceProvider" */;
+			buildConfigurationList = 1986ED5A27CDFCF500096E66 /* Build configuration list for PBXNativeTarget "DiskSpaceProviderExampleApp" */;
 			buildPhases = (
-				192DA5D127B2D648000761E1 /* Sources */,
-				192DA5D227B2D648000761E1 /* Frameworks */,
-				192DA5D327B2D648000761E1 /* Resources */,
+				1986ED4827CDFCF400096E66 /* Sources */,
+				1986ED4927CDFCF400096E66 /* Frameworks */,
+				1986ED4A27CDFCF400096E66 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DiskSpaceProvider;
-			productName = DiskSpaceProvider;
-			productReference = 192DA5D527B2D648000761E1 /* DiskSpaceProvider.app */;
+			name = DiskSpaceProviderExampleApp;
+			productName = DiskSpaceProviderExampleApp;
+			productReference = 1986ED4C27CDFCF400096E66 /* DiskSpaceProviderExampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		192DA5CD27B2D648000761E1 /* Project object */ = {
+		1986ED4427CDFCF400096E66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					192DA5D427B2D648000761E1 = {
+					1986ED4B27CDFCF400096E66 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 192DA5D027B2D648000761E1 /* Build configuration list for PBXProject "DiskSpaceProvider" */;
+			buildConfigurationList = 1986ED4727CDFCF400096E66 /* Build configuration list for PBXProject "DiskSpaceProviderExampleApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,47 +140,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 192DA5CC27B2D648000761E1;
-			productRefGroup = 192DA5D627B2D648000761E1 /* Products */;
+			mainGroup = 1986ED4327CDFCF400096E66;
+			productRefGroup = 1986ED4D27CDFCF400096E66 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				192DA5D427B2D648000761E1 /* DiskSpaceProvider */,
+				1986ED4B27CDFCF400096E66 /* DiskSpaceProviderExampleApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		192DA5D327B2D648000761E1 /* Resources */ = {
+		1986ED4A27CDFCF400096E66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192DA5E027B2D64A000761E1 /* Preview Assets.xcassets in Resources */,
-				192DA5DD27B2D64A000761E1 /* Assets.xcassets in Resources */,
+				1986ED5727CDFCF500096E66 /* Preview Assets.xcassets in Resources */,
+				1986ED5427CDFCF500096E66 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		192DA5D127B2D648000761E1 /* Sources */ = {
+		1986ED4827CDFCF400096E66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192DA5EA27B2D69B000761E1 /* BarView.swift in Sources */,
-				192DA5F127B2D910000761E1 /* StatSectionView.swift in Sources */,
-				192DA5DB27B2D648000761E1 /* ContentView.swift in Sources */,
-				192DA5EF27B2D70D000761E1 /* ContentViewModel.swift in Sources */,
-				192DA5EC27B2D6B8000761E1 /* StatRowView.swift in Sources */,
-				192DA5E727B2D67C000761E1 /* DiskSpaceProvider.swift in Sources */,
-				192DA5D927B2D648000761E1 /* DiskSpaceProviderApp.swift in Sources */,
+				1986ED7B27CE000900096E66 /* BarView.swift in Sources */,
+				1986ED7A27CE000900096E66 /* StatSectionView.swift in Sources */,
+				1986ED7D27CE001A00096E66 /* ContentViewModel.swift in Sources */,
+				1986ED5027CDFCF400096E66 /* DiskSpaceProviderExampleAppApp.swift in Sources */,
+				1986ED7927CE000900096E66 /* ContentView.swift in Sources */,
+				1986ED7827CE000900096E66 /* StatRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		192DA5E127B2D64A000761E1 /* Debug */ = {
+		1986ED5827CDFCF500096E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		192DA5E227B2D64A000761E1 /* Release */ = {
+		1986ED5927CDFCF500096E66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,14 +295,14 @@
 			};
 			name = Release;
 		};
-		192DA5E427B2D64A000761E1 /* Debug */ = {
+		1986ED5B27CDFCF500096E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DiskSpaceProvider/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DiskSpaceProviderExampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = QR8D9G9JQK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -318,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = in.amitsamant.DiskSpaceProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = in.amitsamant.DiskSpaceProviderExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,14 +324,14 @@
 			};
 			name = Debug;
 		};
-		192DA5E527B2D64A000761E1 /* Release */ = {
+		1986ED5C27CDFCF500096E66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DiskSpaceProvider/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DiskSpaceProviderExampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = QR8D9G9JQK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -347,7 +345,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = in.amitsamant.DiskSpaceProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = in.amitsamant.DiskSpaceProviderExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,25 +356,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		192DA5D027B2D648000761E1 /* Build configuration list for PBXProject "DiskSpaceProvider" */ = {
+		1986ED4727CDFCF400096E66 /* Build configuration list for PBXProject "DiskSpaceProviderExampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				192DA5E127B2D64A000761E1 /* Debug */,
-				192DA5E227B2D64A000761E1 /* Release */,
+				1986ED5827CDFCF500096E66 /* Debug */,
+				1986ED5927CDFCF500096E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		192DA5E327B2D64A000761E1 /* Build configuration list for PBXNativeTarget "DiskSpaceProvider" */ = {
+		1986ED5A27CDFCF500096E66 /* Build configuration list for PBXNativeTarget "DiskSpaceProviderExampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				192DA5E427B2D64A000761E1 /* Debug */,
-				192DA5E527B2D64A000761E1 /* Release */,
+				1986ED5B27CDFCF500096E66 /* Debug */,
+				1986ED5C27CDFCF500096E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 192DA5CD27B2D648000761E1 /* Project object */;
+	rootObject = 1986ED4427CDFCF400096E66 /* Project object */;
 }
