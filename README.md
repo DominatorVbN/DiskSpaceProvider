@@ -15,7 +15,7 @@ https://github.com/DominatorVbN/DiskSpaceProvider.git
 add the following as a dependency to your Package.swift:
 
 ```swift
-.package(url: "https://github.com/DominatorVbN/DiskSpaceProvider.git", .upToNextMajor(from: "0.0.1"))
+.package(url: "https://github.com/DominatorVbN/DiskSpaceProvider.git", .upToNextMajor(from: "0.0.3"))
 ```
 
 ## Usage
