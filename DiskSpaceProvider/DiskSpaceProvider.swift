@@ -7,9 +7,11 @@
 
 import Foundation
 
-class DiskSpaceProvider {
+/// Utility class to get device disk space
+public class DiskSpaceProvider {
     
-    enum UsageType {
+    /// Usage of disk storage to calculate space against
+    public enum UsageType {
         case importantUsage
         case opportunisticUsage
     }
@@ -17,14 +19,18 @@ class DiskSpaceProvider {
     private let homeDirectoryPath = NSHomeDirectory() as String
     private let homeDirectoryUrl = URL(fileURLWithPath: NSHomeDirectory() as String)
     
-    func getTotalDiskSpace() throws -> Int64 {
+    /// Get total disk space in bytes
+    /// - Returns: returns total disk space in bytes
+    public func getTotalDiskSpace() throws -> Int64 {
         let systemAttributes = try FileManager.default.attributesOfFileSystem(forPath: homeDirectoryPath)
         let space = (systemAttributes[FileAttributeKey.systemSize] as? NSNumber)?.int64Value
         return space ?? 0
     }
     
-    @available(iOS 11.0, *)
-    func getFreeDiskSpace(forUsageType usageType: UsageType) throws -> Int64 {
+    /// Fetch the available according to provided usage tyep
+    /// - Parameter usageType: usage type of disk space
+    /// - Returns: returns size
+    public func getFreeDiskSpace(forUsageType usageType: UsageType) throws -> Int64 {
         let size: Int64?
         switch usageType {
         case .importantUsage:
@@ -39,7 +45,9 @@ class DiskSpaceProvider {
         return size ?? 0
     }
     
-    func getFreeDiskSpace() throws -> Int64 {
+    /// Get free disk space irrelevent to usage type iOS 13 prior API
+    /// - Returns: returns size
+    public func getFreeDiskSpace() throws -> Int64 {
         let systemAttributes = try FileManager.default.attributesOfFileSystem(forPath: homeDirectoryPath)
         let freeSpace = (systemAttributes[FileAttributeKey.systemFreeSize] as? NSNumber)?.int64Value
         return freeSpace ?? 0
