@@ -1,6 +1,6 @@
 # DiskSpaceProvider
 
-A micro librrary provinding simple API's to check Disk Storage Capacity
+A micro librrary provinding simple API's to check Disk's Storage Capacity
 
 ## Installation
 
